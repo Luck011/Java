@@ -1,8 +1,18 @@
 public class Main {
     public static void main(String[] args) {
+
 int minhaIdade = 28;
 int salarioMensal = 50000;
+boolean verdFalso = true;
+char primeiraLetra = 'L';
+float altura = 1.78F;
+double altura2 = 2.75;
+
         System.out.println(minhaIdade);
         System.out.println(salarioMensal);
+        System.out.println(verdFalso);
+        System.out.println(primeiraLetra);
+        System.out.println(altura);
+        System.out.println(altura2);
     }
 }
