@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+//Dados do cliente
+String firstName = "Lucas " + " Ribeiro";
+
+//Imprimir na tela os dados acima, comando sout cria de forma automatica o println, \n no nos dados da variavel pula linha \t da uma tab
+        System.out.println(firstName);
+        System.out.println(firstName.toUpperCase());
+        System.out.println(firstName.toLowerCase());
+
+
+
+    }
+}
