@@ -3,8 +3,6 @@ public class Main {
         
 String firstName = "Lucas " + "Ribeiro";
 
-
-        System.out.println(minhaIdade);
         System.out.println(firstName);
         System.out.println(firstName.toUpperCase());
         System.out.println(firstName.toLowerCase());
