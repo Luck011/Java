@@ -13,3 +13,5 @@ String firstName = "Lucas " + "Ribeiro";
 
     }
 }
+
+// no tipo de referencia diferente do primitivo podemos chamar o metodo utilizando . após o nome da variavel no prinln
