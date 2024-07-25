@@ -13,14 +13,3 @@ String firstName = "Lucas " + "Ribeiro";
 
     }
 }
-
-
-// Variaveis de referencia podemos acessar os metodos dela utilizando . no nome da variavel dentro do println.
-
-Em Java, além dos tipos primitivos, existem os tipos de referência. Estes incluem:
-
-Classes: Qualquer classe que você definir ou usar, incluindo as fornecidas pela biblioteca padrão do Java. Exemplo: String, ArrayList, HashMap.
-Interfaces: Interfaces que você define ou usa. Exemplo: Runnable, Comparable.
-Arrays: Estruturas de dados que armazenam múltiplos valores do mesmo tipo. Exemplo: int[], String[].
-Enums: Tipos de dados que consistem em um conjunto fixo de constantes. Exemplo: enum Day { SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY }.
-
