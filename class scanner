@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        //Scanner é uma class que captura informações do sistema.
+        Scanner idadeScanner = new Scanner(System.in);
+        System.out.println("Digite a sua idade:"); //Mostro o que a pessoa vai digitar
+
+//Pega a informação de idadescanner e armazena dentro de idade cliente
+byte idadeCliente = idadeScanner.nextByte();
+        System.out.println(idadeCliente);
+
+
+    }
+}
+
