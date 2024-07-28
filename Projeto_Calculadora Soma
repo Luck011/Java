@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner primeiroNum = new Scanner(System.in);
+        System.out.println("Digite primeiro Numero:");
+        int primn = primeiroNum.nextInt();
+
+        Scanner segundoNum = new Scanner(System.in);
+        System.out.println("Digite segundo Numero:");
+        int segn = segundoNum.nextInt();
+
+int resultado = primn + segn;
+        System.out.println("O resultado e:" + resultado);
+
+    }
+}
