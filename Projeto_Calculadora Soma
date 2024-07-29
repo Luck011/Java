@@ -2,16 +2,16 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner primeiroNum = new Scanner(System.in);
-        System.out.println("Digite primeiro Numero:");
-        int primn = primeiroNum.nextInt();
+        Scanner valores = new Scanner(System.in);
 
-        Scanner segundoNum = new Scanner(System.in);
-        System.out.println("Digite segundo Numero:");
-        int segn = segundoNum.nextInt();
+        System.out.println("Digite primeiro número:");
+        int num1 = valores.nextInt();
 
-int resultado = primn + segn;
-        System.out.println("O resultado e:" + resultado);
+        System.out.println("Digite segundo número:");
+        int num2 = valores.nextInt();
 
+        int resultado = num1 + num2;
+
+        System.out.println("Resultado é: " + resultado);
     }
 }
