@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner valores = new Scanner(System.in);
+
+        System.out.println("Digite primeiro número:");
+        double num1 = valores.nextDouble();
+
+        System.out.println("Digite segundo número:");
+        double num2 = valores.nextDouble();
+
+        double resultado = num1 + num2;
+
+        System.out.println("Resultado é: " + resultado);
+    }
+}
+
+//10,2  10,3
