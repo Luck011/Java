@@ -15,3 +15,33 @@ public class Main {
         System.out.println("Resultado é: " + resultado);
     }
 }
+-------------------------------------------------------------------------
+// codigo com comentarios
+
+import java.util.Scanner; // Importa a classe Scanner para leitura de dados do usuário
+
+public class Main {
+    public static void main(String[] args) {
+        // Cria um objeto Scanner para ler a entrada do usuário
+        Scanner valores = new Scanner(System.in);
+
+        // Solicita ao usuário que digite o primeiro número
+        System.out.println("Digite primeiro número:");
+        // Lê o primeiro número inteiro fornecido pelo usuário
+        int num1 = valores.nextInt();
+
+        // Solicita ao usuário que digite o segundo número
+        System.out.println("Digite segundo número:");
+        // Lê o segundo número inteiro fornecido pelo usuário
+        int num2 = valores.nextInt();
+
+        // Calcula a soma dos dois números
+        int resultado = num1 + num2;
+
+        // Exibe o resultado da soma
+        System.out.println("Resultado é: " + resultado);
+
+        // Fecha o objeto Scanner para liberar os recursos
+        valores.close();
+    }
+}
