@@ -1,0 +1,19 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+Scanner dadosPessoais = new Scanner(System.in);
+
+        System.out.println("Degite seu nome:");
+        String nome = dadosPessoais.nextLine();
+
+        System.out.println("Digite sua idade:");
+        int idade = dadosPessoais.nextInt();
+
+        System.out.println("Seu nome é:" + nome + "\nSua idade é: " + idade);
+
+
+    }
+}
