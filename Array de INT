@@ -1,0 +1,51 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        //int[] está dizendo para java que isso é um array VALORES é o nome do array
+        int[] valores = {10, 20, 15, 30, 40 };
+
+        //usar um class chamada Arrays e o metodo tostring em seguida adicionar o parametro VALORES
+        System.out.println(Arrays.toString(valores));
+    }
+}
+
+
+----------------------------------------------------------------
+//manipular a Array
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] valores = {10, 20, 15, 30, 40 };
+        
+        //Arrays.sort para manipular arrays, organizar
+        Arrays.sort(valores);
+        
+        System.out.println(Arrays.toString(valores));
+    }
+}
+
+------------------------------------------------------------------
+//Valores.length retorna a quantidade de valores em sua array
+
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] valores = {10, 20, 15, 30, 40 };
+
+        //Arrays.sort para manipular arrays, organizar
+        Arrays.sort(valores);
+
+        System.out.println(Arrays.toString(valores));
+
+        //Valores.length retorna a quantidade de valores em sua array
+        System.out.println(valores.length);
+    }
+}
