@@ -17,3 +17,24 @@ Scanner dadosPessoais = new Scanner(System.in);
 
     }
 }
+
+
+------------------------------------
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner dadospessoais = new Scanner(System.in);
+
+        System.out.println("Qual é seu primeiro nome?");
+        String nome = dadospessoais.nextLine();
+
+        System.out.println("Qual é seu sobrenome?");
+        String sobnome = dadospessoais.nextLine();
+
+        System.out.println("Seu Primeiro nome é:" + nome +  "\nSeu sobre nome é: " + sobnome);
+
+
+    }
+}
+
