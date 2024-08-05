@@ -1,0 +1,45 @@
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+
+        String[] carros = {"BMW", "Tesla", "Jeep", "Fiat"};
+
+        System.out.println(Arrays.toString(carros));
+
+    }
+}
+
+---------------------------------------------------------
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+
+        String[] carros = {"BMW", "Tesla", "Jeep", "Fiat"};
+
+        System.out.println(Arrays.toString(carros));
+
+        //Vamos supor que eu queira um carro especifico da minha arry o numro começa de 0 1 2 3
+        System.out.println(carros[1]);
+        
+    }
+}
+---------------------------------------------------------
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+
+        String[] carros = {"BMW", "Tesla", "Jeep", "Fiat"};
+
+        //Vamos supor que eu queiro trocar a nome de um valor de minha array
+        carros[3] = "Onix";
+
+        System.out.println(Arrays.toString(carros));
+
+        //Vamos supor que eu queira um carro especifico da minha arry o numro começa de 0 1 2 3
+        System.out.println(carros[3]);
+
+    }
+}
